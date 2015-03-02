@@ -14,20 +14,21 @@ class RequestTokenController extends AppController {
 	{
 		$request = $this->app['oauth_request'];
 		$code = $request->query['code'];
-	
+			
 		// exchange authorization code for access token
 		$query = array(
 			'grant_type'    => 'authorization_code',
 			'code'          => $code,
 			'client_id'     => $this->config['client_id'],
 			'client_secret' => $this->config['client_secret'],
-			'redirect_uri'  => 'http://localhost/oauthapp/client/receive_authcode',
+			'username'     => $this->config['client_id'],
+			'password' => $this->config['client_secret'],
+			'redirect_uri'  => 'http://oauth/client/receive_authcode',
 		);
 	
 		// make the token request via http and decode the json response
-		$response = $this->HttpSocket->post('http://localhost/oauthapp/server/token', $query, $this->config['http_options']);
+		$response = $this->HttpSocket->post('http://oauth/server/token', $query, $this->config['http_options']);
 		$json = json_decode((string) $response->body, true);
-
 		// if it is succesful, display the token in our app
 		if (isset($json['access_token'])) {
 			$this->set('token', $json['access_token']);
@@ -58,7 +59,7 @@ class RequestTokenController extends AppController {
 // 		$endpoint = 0 === strpos($grantRoute, 'http') ? $grantRoute : $urlgen->generate($grantRoute, array(), true);
 		
 		// make the token request via http and decode the json response
-		$response = $this->HttpSocket->post('http://localhost/oauthapp/server/token', $query, $this->config['http_options']);
+		$response = $this->HttpSocket->post('/server/token', $query, $this->config['http_options']);
 		
 		
 		// GET THE TOKEN RESPONSE - FOR DEVELOPMENT PURPOSES

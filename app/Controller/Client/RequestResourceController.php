@@ -21,7 +21,7 @@ class RequestResourceController extends AppController {
 		// determine the resource endpoint to call based on our config (do this somewhere else?)
 		$apiRoute = $this->config['resource_route'];
 // 		$endpoint = 0 === strpos($apiRoute, 'http') ? $apiRoute : $urlgen->generate($apiRoute, $config['resource_params'], true);
-		$endpoint = 'http://localhost/oauthapp/server/resource' . '?' . http_build_query($this->config['resource_params']);
+		$endpoint = '/server/resource' . '?' . http_build_query($this->config['resource_params']);
 	
 		// make the resource request and decode the json response
 		$request = $this->HttpSocket->get($endpoint, null, $this->config['http_options']);

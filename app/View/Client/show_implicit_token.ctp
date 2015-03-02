@@ -25,7 +25,7 @@
             Now use this token to make a request to the OAuth2.0 Server's APIs:
         </p>
 
-        <div class="text-center"><a class="button" href="http://localhost/oauthapp/server/resource" onclick="this.href += '?token=' + window.params.access_token;">Click here to make a resource request</a></div><br>
+        <div class="text-center"><a class="button" href="/server/resource" onclick="this.href += '?token=' + window.params.access_token;">Click here to make a resource request</a></div><br>
 
         <div class="help text-center"><em>This token can now be used multiple times to make API requests for this user.</em></div>
 

@@ -16,10 +16,10 @@
 
 <p>Make the following cURL request to receive an access token:</p>
 
-<pre><code>  $ curl -v "<?php echo 'http://' . $_SERVER['HTTP_HOST'] ?>/oauthapp/server/token" \
+<pre><code>  $ curl -v "<?php echo 'http://' . $_SERVER['HTTP_HOST'] ?>/server/token" \
     -d "grant_type=password&client_id=<?php echo $config['client_id']; ?>&client_secret=<?php echo $config['client_secret']; ?>&username=<?php echo $config['user_credentials'][0]; ?>&password=<?php echo $config['user_credentials'][1]; ?>"
 </code></pre>
 
 <p>...or just click below to let us do it for you<p>
 
-<a class="btn btn-primary" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/oauthapp/client/request_token/user_credentials' ?>?username=<?php echo $config['user_credentials'][0]; ?>&password=<?php echo $config['user_credentials'][1]; ?>">Get Access Token</a>
+<a class="btn btn-primary" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/client/request_token/user_credentials' ?>?username=<?php echo $config['user_credentials'][0]; ?>&password=<?php echo $config['user_credentials'][1]; ?>">Get Access Token</a>

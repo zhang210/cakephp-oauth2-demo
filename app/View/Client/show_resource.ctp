@@ -27,7 +27,7 @@
     	}
     ?>
     
-    <pre><code>  The API call can be seen at <a href="http://localhost/oauthapp/server/resource?access_token=<?php echo $token; ?>" target="_blank">http://localhost/oauthapp/server/resource</a></code></pre>
+    <pre><code>  The API call can be seen at <a href="/server/resource?access_token=<?php echo $token; ?>" target="_blank">/server/resource</a></code></pre>
 
-    <div class="text-center"><a href="http://localhost/oauthapp/">Go to Home</a></div>
+    <div class="text-center"><a href="http://oauth/">Go to Home</a></div>
     </div>

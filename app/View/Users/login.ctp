@@ -4,7 +4,7 @@
 	
 	      <div class="card card-signin">
 	        <?php echo $this->Html->image('avatar_2x.png', array('class' => 'img-circle profile-img')); ?>
-	        <form class="form-signin" role="form" id="UserLoginForm" accept-charset="utf-8" method="post" action="/oauthapp/users/login">
+	        <form class="form-signin" role="form" id="UserLoginForm" accept-charset="utf-8" method="post" action="/users/login">
 	          <input type="text" id="UserUsername" name="data[User][username]" class="form-control" placeholder="Email" required autofocus>
 	          <input type="password" id="UserPassword" name="data[User][password]" class="form-control" placeholder="Password" required>
 	          <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>

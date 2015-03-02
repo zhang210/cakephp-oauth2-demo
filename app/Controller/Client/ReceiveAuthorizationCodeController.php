@@ -17,7 +17,8 @@ class ReceiveAuthorizationCodeController extends AppController {
 		}
 		
 		// verify the "state" parameter matches this user's session (this is like CSRF - very important!!)
-		if ($request->query('state') !== $session->getId()) {
+		//if ($request->query('state') !== $session->getId()) {
+		if ($request->query('state') !== session_id()) {
 			$this->set('response', array('error_description' => 'Your session has expired.  Please try again.'));
 			$this->render('/client/failed_authorization');
 		}

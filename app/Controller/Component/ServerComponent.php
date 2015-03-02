@@ -9,15 +9,15 @@ class ServerComponent extends Component
     public static function setup()
     {
         $dsn      = 'mysql:dbname=oauth;host=localhost';
-        $username = 'root';
-        $password = '';
+        $username = 'test';
+        $password = 'test';
 
         // error reporting (this is a demo, after all!)
         ini_set('display_errors',1);error_reporting(E_ALL);
 
         // Autoloading (composer is preferred, but for this example let's just do this)
-        require_once (APP . 'Vendor' . DS . 'oauth2-server-php' . DS . 'src' . DS . 'OAuth2' . DS . 'Autoloader.php');
-        OAuth2\Autoloader::register();
+        //require_once (APP . 'Vendor' . DS . 'oauth2-server-php' . DS . 'src' . DS . 'OAuth2' . DS . 'Autoloader.php');
+        //OAuth2\Autoloader::register();
 
         // $dsn is the Data Source Name for your database, for exmaple "mysql:dbname=my_oauth2_db;host=localhost"
         $storage = new OAuth2\Storage\Pdo(array('dsn' => $dsn, 'username' => $username, 'password' => $password));

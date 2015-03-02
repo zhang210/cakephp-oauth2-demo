@@ -66,7 +66,7 @@
 	      
 	      <span class="pull-right">
 	      
-	      <form style="display:inline;" id="cancel" action="<?php echo 'http://localhost/oauthapp/server/authorize' . '?' . http_build_query($query)?>" method="post">
+	      <form style="display:inline;" id="cancel" action="<?php echo '/server/authorize' . '?' . http_build_query($query)?>" method="post">
             <button type="button" onclick="document.getElementById('cancel').submit()" class="btn btn-default">Cancel</button>
             <input type="hidden" name="authorize" value="0" />
           </form>
