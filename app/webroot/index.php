@@ -39,6 +39,7 @@ if (!defined('ROOT')) {
     define('ROOT', dirname(dirname(dirname(__FILE__))));
 }
 
+
 /**
  * The actual directory name for the "app".
  *
@@ -97,6 +98,13 @@ if (!defined('CAKE_CORE_INCLUDE_PATH')) {
 }
 if (!empty($failed)) {
     trigger_error("CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your " . DS . "cake core directory and your " . DS . "vendors root directory.", E_USER_ERROR);
+}
+
+// for HTTP BASE URL
+if($_SERVER['REQUEST_URI'] !== '/'){
+	define('HTTP_BASE_URL', FULL_BASE_URL . $_SERVER['REQUEST_URI']);
+}else{
+	define('HTTP_BASE_URL', Router::url( "/", true ));
 }
 
 // autoload vendored libraries
