@@ -13374,12 +13374,673 @@ Request URL: /client/request_token/signin.css
 Stack Trace:
 #0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2015-03-02 12:18:30 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+2015-03-02 16:06:47 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
 Exception Attributes: array (
   'class' => 'Signin.cssController',
   'plugin' => NULL,
 )
-Request URL: /cakephp-oauth2-demo/signin.css
+Request URL: /signin.css
 Stack Trace:
-#0 /Applications/XAMPP/xamppfiles/htdocs/cakephp-oauth2-demo/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:06:51 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:06:52 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:06:55 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:07:03 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:11:51 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:11:54 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:11:55 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:01 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:08 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:35 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:36 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:38 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:40 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:54 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:58 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/%7B%7B%20path('homepage')%20%7D%7D
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:12:58 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:14:25 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:14:27 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:14:29 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 16:14:40 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:04:21 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:04:26 Error: [MissingActionException] Action UsersController::signin.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'signin.css',
+)
+Request URL: /users/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/oauth/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 17:04:34 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:04:40 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:04:42 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:04:55 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:05:07 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:05:09 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:05:12 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:05:14 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:05:16 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/{{%20path('homepage')%20}}
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 17:05:16 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-03 14:44:26 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:12:49 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:12:52 Error: [MissingActionException] Action UsersController::signin.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'signin.css',
+)
+Request URL: /users/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/oauth/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-06 14:13:04 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:13:07 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:13:08 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:13:11 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:41:05 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:41:09 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:41:10 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:41:12 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:41:16 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:42:45 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:42:52 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:42:57 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/%7B%7B%20path('homepage')%20%7D%7D
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:42:57 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:43:03 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:43:07 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:43:11 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:43:12 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:43:15 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:46:56 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:47:40 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:58:09 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:58:13 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:58:15 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:58:16 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 14:58:18 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:05:53 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:06:40 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:06:46 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:06:50 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:06:53 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:13:54 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:18:40 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:18:45 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:19:20 Error: [MissingControllerException] Controller class Signin.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Signin.cssController',
+  'plugin' => NULL,
+)
+Request URL: /signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:19:25 Error: [MissingControllerException] Controller class ServerController could not be found.
+Exception Attributes: array (
+  'class' => 'ServerController',
+  'plugin' => NULL,
+)
+Request URL: /server/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:19:30 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:19:33 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/request_token/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-06 15:19:34 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /client/signin.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/oauth/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}

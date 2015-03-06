@@ -7,6 +7,6 @@
         Now use this token to make a request to the OAuth2.0 Server's APIs:
     </p>
 
-    <div class="text-center"><a class="btn btn-primary" href=<?php echo HTTP_BASE_URL;?>"client/request_resource?token=<?php echo $token; ?>">make a resource request</a></div>
+    <div class="text-center"><a class="btn btn-primary" href="/client/request_resource?token=<?php echo $token; ?>">make a resource request</a></div>
 	<br>
     <div class="help text-center"><em>This token can now be used multiple times to make API requests for this user.</em></div>
